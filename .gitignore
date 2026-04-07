@@ -1,0 +1,45 @@
+# AIOS Core - Local Workspace
+# Created by Antigravity for Gabriel
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Environments and dependencies
+venv/
+.venv/
+env/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Models and large files (AIOS often has these)
+models/
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Logs and temp files
+logs/
+tmp/
+*.log
+.gemini/
+.agents/
+.agent/
+_agents/
+_agent/
+
+# Credentials (CRITICAL: Never upload these)
+.env
+auth.json
+*.pem
+*.key
+config.json
+secrets.json
+
+# IDEs
+.vscode/
+.idea/
